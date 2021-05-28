@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+}
+
+#me {
+  margin: 0;
+  border-radius: 100%;
+  max-width: 200px;
+  padding: 8px;
+}
+
+#title {
+  padding: 16px;
+}
+
+#subtitle {
+  padding: 8px;
+}
+
+#content {
+  max-width: 800px;
+  font-size: 16pt;
+  line-height: 1.4;
+}
+
+#content > ul {
+  padding: 8px;
+}
+
+#content > p {
+  padding: 16px;
+}
+
+.link {
+  color: lightblue;
+}
