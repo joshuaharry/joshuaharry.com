@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color: white;
+  word-break: break-word;
 }
 
 h1,
@@ -29,11 +30,15 @@ ul {
 }
 
 #title {
+  font-size: 24pt;
   padding: 16px;
+  text-align: center;
 }
 
 #subtitle {
+  font-size: 20pt;
   padding: 8px;
+  text-align: center;
 }
 
 #content {
