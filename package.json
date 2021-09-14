@@ -1,0 +1,22 @@
+{
+  "name": "joshuaharry.com",
+  "version": "1.0.0",
+  "description": "My personal blog.",
+  "scripts": {
+    "start": "vite public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuaharry/joshuaharry.com.git"
+  },
+  "author": "Joshua Hoeflich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuaharry/joshuaharry.com/issues"
+  },
+  "homepage": "https://github.com/joshuaharry/joshuaharry.com#readme",
+  "devDependencies": {
+    "vite": "^2.5.7"
+  }
+}
