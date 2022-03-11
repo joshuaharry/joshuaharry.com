@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My personal blog.",
   "scripts": {
-    "start": "vite public"
+    "start": "live-server public"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/joshuaharry/joshuaharry.com#readme",
   "devDependencies": {
-    "vite": "^2.5.7"
+    "live-server": "github:joshuaharry/live-server"
   }
 }
