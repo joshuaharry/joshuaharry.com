@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "My personal blog.",
   "scripts": {
-    "start": "live-server public"
+    "start": "live-server public",
+    "latex": "watchexec -e tex 'pdflatex -interaction=nonstopmode -halt-on-error -output-directory=public --aux-directory=aux latex/resume.tex'"
   },
   "repository": {
     "type": "git",
