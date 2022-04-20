@@ -9,36 +9,43 @@
     <title>Joshua Hoeflich</title>
   </head>
   <body>
-    <div id="main">
-      <img
-        id="me"
-        width="200px"
-        height="200px"
-        alt="An image of Joshua Harry Hoeflich"
-        src="/img/josh.webp"
-      />
-      <h2 id="subtitle">Hi, there! I'm Josh. Nice to meet you.</h2>
+    <div id="container">
+      <div id="topbar">
+        <p id="name" class="bar-item">Joshua Hoeflich</p>
+        <div id="links">
+          <a class="bar-item" href="https://github.com/joshuaharry">GitHub</a>
+          <a class="bar-item" href="/resume.pdf">Resume</a>
+          <a
+            class="bar-item"
+            href="mailto:joshuahoeflich2021@u.northwestern.edu"
+            >Email</a
+          >
+        </div>
+      </div>
       <div id="content">
-        <p>
-          I'm a software engineer building tools for the web with researchers
-          and developers at Adobe, Northwestern, and the University of Maryland.
-          In my spare time, I like to research programming languages. I love
-          building systems for other people to use; I enjoy untangling dirty
-          code and messy systems. Cleaning up technical debt may not seem
-          glamarous, but I want to make the world more maintainable one program
-          at a time.
-        </p>
-        <p>
-          Before becoming a developer, I wanted to work as a high-school English
-          teacher. I enjoy skiing, bookstores, swimming, cozy fireplaces, and
-          the occasional game of Magic: The Gathering with friends.
-        </p>
-        <p>
-          If you'd like to get in touch, please email me at
-          <a class="link" href="mailto:joshuahoeflich2021@u.northwestern.edu"
-            >joshuahoeflich2021@u.northwestern.edu</a
-          >. Have an excellent day.
-        </p>
+        <div id="hello-container">
+          <img id="me" alt="A picture of Joshua Hoeflich." src="/img/me.webp" />
+          <h3 id="hello">hello, world</h3>
+        </div>
+        <div id="about-container">
+          <p class="about-par">
+            My name is Josh. I'm an engineer building websites to improve AI
+            systems with teammates at Adobe, Northwestern, and the University of
+            Maryland. In my spare time, I also research programming langauges.
+            My work there involves applying contract systems to detect bugs in
+            TypeScript type declarations.
+          </p>
+          <p class="about-par">
+            I love building tools that make other people more effective at what
+            they do. For that reason, I enjoy building user interfaces,
+            infrastructure, and development tools. There's nothing quite so
+            rewarding to me as helping other people move faster.
+          </p>
+          <p class="about-par">
+            If you'd like to reach out to me, feel free to use any of the links
+            at the top of this page. Have an excellent day.
+          </p>
+        </div>
       </div>
     </div>
   </body>

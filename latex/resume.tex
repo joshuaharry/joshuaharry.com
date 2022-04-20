@@ -1,9 +1,62 @@
 \documentclass[letterpaper]{article}
 \usepackage{parskip}
 \usepackage[margin=1in]{geometry}
-\pagenumbering{gobble}
-\begin{document}
-{\LARGE \textbf{Joshua Hoeflich}}
+\usepackage{fontawesome}
+\usepackage{sectsty}
+\subsectionfont{\fontsize{11}{15}\selectfont}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
 
-More here soon...
+\pagenumbering{gobble}
+\newcommand{\bigdot}{{\large $\cdot$ }}
+
+\begin{document}
+{\Large \textbf{Joshua Hoeflich}}\hfill \href{mailto:joshuahoeflich2021@u.northwestern.edu}{{\small \faEnvelope}~joshuaharry411@icloud.com} \bigdot
+\href{https://github.com/joshuaharry}{{\small \faGithub}~joshuaharry}
+
+{\normalsize Evanston, IL $\cdot$ 847-513-1894}\hfill \href{https://www.linkedin.com/in/josh-hoeflich/}{{\small \faLinkedinSquare}~josh-hoeflich} $\cdot$ \href{https://joshuaharry.com}{{\small \faGlobe}~joshuaharry.com}
+\section*{Work Experience}
+\subsection*{Research Associate, Northwestern University, January 2022 - Present}
+\begin{itemize}
+\item Investigates human-in-the-loop machine learning by deploying 3 prototype single-page applications designed to capture user responses to machine-generated document summarizations; built and designed websites with an Adobe-based team
+\item Improves PDF accessibility by building the interface to FormA11y, a form remediation tool to be utilized in a user study, in collaboration with teammates at the University of Maryland
+\item Became the 40th contributor on Definitely Typed by fixing 100 problems in 100 separate libraries through building automatic bug detection infrastructure
+\end{itemize}
+\subsection*{Software Engineer I, Groundbreaker, December 2019 - August 2020}
+\begin{itemize}
+\item Facilitated real-estate investments by contributing to the user interface of a purpose-built platform that managed millions of dollars worth of assets under management; deployed improvements to 200,000 line React codebase 2-3 times daily
+
+\item Managed website backend by maintaining over 200 serverless functions deployed to AWS written in Go and JavaScript through writing bug fixes and new features on an international team of four
+\end{itemize}
+\section*{Projects}
+\subsection*{Find Chicago News}
+\begin{itemize}
+  \item Built an automatic system for detecting newsworthy stories on social media by writing an algorithm to scrape 200 posts from Next Door and select the 10 most interesting ones; interdisciplinary collaboration with students in journalism and business
+\end{itemize}
+\subsection*{AI Emails}
+\begin{itemize}
+  \item Wrote tool for emailing students struggling in course on AI and programming by analyzing feedback on over 2500 exercise submissions to autogenerate appropriate help messages
+\end{itemize}
+
+\section*{Technologies}
+\emph{Languages:} Fluent in TypeScript and JavaScript. 
+Shipped and maintained systems written in Python and Go. 
+Research experience with Racket (a LISP dialect) and Bash scripts
+
+\emph{Frameworks:} Extensive work with React and its ecosystem, including CSS-in-JS tools like styled-components and state management systems like Redux. Familiarity with Express and FastAPI
+
+\emph{Tools:} Comfortable with Git, Linux, Emacs, and Vim. Familiar with CICD pipelines using GitHub actions; brief experience with infrastructure as code systems like Pulumi
+\section*{Education}
+
+\subsection*{MS Computer Science, Northwestern University, September 2020 - December 2021}
+\begin{itemize}
+\item 4.00 GPA; coursework focused on programming languages, AI, and agile development
+\end{itemize}
 \end{document}
