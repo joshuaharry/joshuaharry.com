@@ -97,7 +97,22 @@ p {
   body {
     font-size: 11pt;
   }
+
   #hello-container {
     margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #name {
+    display: none;
+  }
+
+  #me {
+    height: 350px;
+  }
+
+  .about-par {
+    font-size: 13pt;
   }
 }
