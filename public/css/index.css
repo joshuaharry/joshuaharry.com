@@ -6,7 +6,7 @@ html {
 body {
   margin: 0;
   word-break: break-word;
-  font-size: 13pt;
+  font-size: 12pt;
   font-family: Arial;
   color: #222222;
 }
@@ -91,4 +91,13 @@ p {
 
 .about-par {
   padding-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 11pt;
+  }
+  #hello-container {
+    margin-bottom: 1rem;
+  }
 }
